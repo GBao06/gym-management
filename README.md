@@ -258,12 +258,6 @@ mysql -u root -p gym_management < backup.sql
 | "Số điện thoại không hợp lệ" | Format sai | Nhập theo format 0XXXXXXXXX |
 | "Mã đã tồn tại" | Trùng mã | Hệ thống sẽ tự tạo mã duy nhất |
 
-## 📞 Hỗ Trợ & Phát Triển
-
-### Để Liên Hệ
-- Email: support@gymmanagement.vn
-- Website: https://gymmanagement.vn
-
 ### Các Tính Năng Sắp Có
 - 🔜 Quản lý tài khoản & đăng nhập
 - 🔜 Tích hợp QR code check-in
@@ -271,16 +265,3 @@ mysql -u root -p gym_management < backup.sql
 - 🔜 Thông báo qua email/SMS
 - 🔜 Xuất báo cáo PDF/Excel
 - 🔜 Quản lý HLV & lịch tập
-
-## 📄 License
-
-Dự án này được cấp phép theo MIT License.
-
-## 🙏 Cảm Ơn
-
-Cảm ơn bạn đã sử dụng Hệ Thống Quản Lý Phòng Gym!
-
----
-
-**Phiên Bản:** 1.0  
-**Cập Nhật Lần Cuối:** 2025-03-09
