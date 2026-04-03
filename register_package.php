@@ -109,14 +109,16 @@ $packages = $conn->query("SELECT * FROM packages WHERE status='active' ORDER BY 
                                             </button>
                                         </div>
                                     </div>
+                                    <form method="POST" >
+                                        <?php if ($member_info): ?>
+                                            <div class="alert alert-info">
+                                                <strong><i class="fas fa-check"></i> Thông tin hội viên:</strong><br/>
+                                                Tên: <?php echo $member_info['fullname']; ?><br/>
+                                                Mã: <?php echo $member_info['code']; ?>
+                                            </div>
+                                        <?php endif; ?> 
+                                    </form>
 
-                                    <?php if ($member_info): ?>
-                                        <div class="alert alert-info">
-                                            <strong><i class="fas fa-check"></i> Thông tin hội viên:</strong><br/>
-                                            Tên: <?php echo $member_info['fullname']; ?><br/>
-                                            Mã: <?php echo $member_info['code']; ?>
-                                        </div>
-                                    <?php endif; ?>
 
                                     <div class="mb-3">
                                         <label class="form-label"><strong>Chọn Gói Tập:</strong> <span class="text-danger">*</span></label>
@@ -217,6 +219,7 @@ function updatePackageInfo() {
         packageInfo.innerHTML = '<p class="text-muted text-center">Vui lòng chọn gói tập để xem chi tiết</p>';
     }
 }
+
 </script>
 </body>
 </html>
