@@ -93,7 +93,7 @@ $week_stats = $conn->query("
                         <div class="stat-card">
                             <i class="fas fa-times-circle fa-2x text-danger mb-2"></i>
                             <div class="stat-number"><?php echo $expired_members; ?></div>
-                            <div class="stat-label">Hội Viên Hết Hạn</div>
+                            <div class="stat-label">Hộ Viên Hết Hạn</div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">

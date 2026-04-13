@@ -187,10 +187,10 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">s
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
-                <i class="fas fa-dumbbell"> </i> GYM Thịnh GM
+                <i class="fas fa-dumbbell"></i> Hệ thống quản lý hội viên phòng GYM Thịnh GM
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>

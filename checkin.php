@@ -41,7 +41,6 @@ if (!empty($member_code)) {
         } else {
             // Gói tập hợp lệ
             if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($action)) {
-                date_default_timezone_set('Asia/Ho_Chi_Minh');
                 $today = date('Y-m-d');
                 $current_time = date('H:i:s');
 
@@ -156,7 +155,7 @@ if (!empty($member_code)) {
                                         </div>
                                     <?php else: ?>
                                         <div class="d-grid gap-2">
-                                            <button type="submit" name="action" value="checkin" class="btn btn-success btn-lg"  >
+                                            <button type="submit" name="action" value="checkin" class="btn btn-success btn-lg" disabled>
                                                 <i class="fas fa-sign-in-alt"></i> Check-in Vào
                                             </button>
                                         </div>
